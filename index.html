@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- https://daisyui.com/ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Tailwind CSS Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./Fontawesome 6 css/all.min.css">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@3.0.3/dist/full.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <!-- Tailwind CSS (Local) -->
+    <script src="./cdn.tailwindcss.com_3.3.2"></script>
+
+    <!-- Daisy UI (Local) -->
+    <link rel="stylesheet" href="./cdn.jsdelivr.net_npm_daisyui@3.0.3_dist_full.css">
+</head>
+
+<body class="">
+    <!-- bg-zinc-600 transition -->
+
+    <div class="container">
+        <h1 class="text-slate-100 font-medium text-3xl p-8">Hello World!</h1>
+
+        <!-- buttons -->
+        <div class="mx-10 bg-slate-500 w-max rounded-md p-2 my-6">
+            <button type="button"
+                class="bg-orange-600 btn px-5 py-2 mx-3 border-yellow-700 rounded-xl text-white font-semibold text-xl hover:border-2 hover:text-white hover:border-yellow-600 border-2 cursor-pointer hover:bg-zinc-600 hover:scale-105 transition">
+                Hi
+            </button>
+
+            <a class="btn btn-primary rounded-full mx-3">Daisy UI Button</a>
+
+            <button type="button" class="btn bg-red-600  mx-3 hover:bg-red-700 text-white border-none rounded-full">
+                Hey there! 👋🏼
+            </button>
+
+            <button type="button"
+                class="bg-indigo-600 px-4 py-3  mx-3 text-center text-sm font-semibold inline-block text-white cursor-pointer uppercase transition duration-200 ease-in-out rounded-md hover:bg-indigo-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600">
+                Ordinary Tailwind Button
+            </button>
+        </div>
+
+
+        <form class="w-80 rounded-2xl bg-gray-100 mx-auto my-auto">
+            <div class="flex flex-col gap-2 p-8">
+                <input placeholder="Email"
+                    class="w-full rounded-lg border border-gray-300 text-gray-600 bg-white px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-100"
+                    type="email" required />
+                <label class="flex cursor-pointer items-center justify-between p-1 text-gray-600">
+                    Accept terms of use
+                    <div class="relative inline-block">
+                        <input type="checkbox"
+                            class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-white checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" />
+                        <span
+                            class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-gray-900"></span>
+                    </div>
+                </label>
+                <label class="flex cursor-pointer items-center justify-between p-1 text-gray-600">
+                    Submit to newsletter
+                    <div class="relative inline-block">
+                        <input type="checkbox"
+                            class="peer h-6 w-12 cursor-pointer appearance-none rounded-full border border-gray-300 bg-white checked:border-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" />
+                        <span
+                            class="pointer-events-none absolute left-1 top-1 block h-4 w-4 rounded-full bg-gray-400 transition-all duration-200 peer-checked:left-7 peer-checked:bg-gray-900"></span>
+                    </div>
+                </label>
+                <button type="submit"
+                    class="inline-block cursor-pointer rounded-md bg-gray-700 px-4 py-3.5 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 active:scale-95">
+                    Save
+                </button>
+            </div>
+        </form>
+
+
+    </div>
+    <script src="./tailwind.config.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
+
+<!-- DAISY UI -->
+<!-- https://daisyui.com/ -->
+
+<!-- <div class="card bg-base-200 w-80">
+    <div class="card-body">
+      <input placeholder="Email" class="input input-bordered" />
+      <label class="label cursor-pointer">
+        Accept terms of use
+        <input type="checkbox" class="toggle" />
+      </label>
+      <label class="label cursor-pointer">
+        Submit to newsletter
+        <input type="checkbox" class="toggle" />
+      </label>
+      <button class="btn btn-neutral">Save</button>
+    </div>
+  </div> -->
