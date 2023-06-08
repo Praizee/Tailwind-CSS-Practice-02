@@ -1565,7 +1565,8 @@ video {
 
 :root,
 [data-theme] {
-    background-color: hsl(var(--b1) / var(--tw-bg-opacity, 1));
+    /* commented this out because it was automatically giving me a dark background 🥺🥲 */
+    /* background-color: hsl(var(--b1) / var(--tw-bg-opacity, 1)); */
     color: hsl(var(--bc) / var(--tw-text-opacity, 1))
 }
 
