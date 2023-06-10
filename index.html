@@ -23,23 +23,119 @@
     <!-- style="background-color: hsl(var(--b1) / var(--tw-bg-opacity, 1));" -->
 
     <div class="container transition">
+        <!-- navbar 2 -->
+        <div class="navbar bg-base-100">
+            <!-- hamburger -->
+            <div class="flex-none">
+                <button class="btn btn-square btn-ghost" title=".">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        class="inline-block w-5 h-5 stroke-current">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- end of hamburger -->
+
+            <!-- hamburger 2 -->
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h7" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 w-52">
+                        <!-- rounded-box -->
+                        <li><a>Homepage</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end of hamburger 2 -->
+
+            <div class="flex-1">
+                <a class="btn btn-ghost normal-case text-xl">TailwindCSS</a>
+            </div>
+            <div class="flex-none">
+                <ul class="menu menu-horizontal px-1 text-base">
+                    <li>
+                        <a>Home</a>
+                    </li>
+                    <li>
+                        <a>Services</a>
+                    </li>
+                    <li>
+                        <a>About</a>
+                    </li>
+                    <li>
+                        <a>Contact</a>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>
+                                DropDown
+                            </summary>
+                            <ul class="p-2 bg-base-100">
+                                <li><a>Link 1</a></li>
+                                <li><a>Link 2</a></li>
+                                <!-- added this dropdown 🤷🏼 -->
+                                <li>
+                                    <details>
+                                        <summary>
+                                            DropDown
+                                        </summary>
+                                        <ul class="p-2 bg-base-100">
+                                            <li><a>Link 1</a></li>
+                                            <li><a>Link 2</a></li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <!-- end of dropdown -->
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end of navbar 2 -->
+
         <h1 class="text-slate-100 font-medium text-3xl p-8">Hello World!</h1>
 
-        <form class="card bg-base-200 w-80 mx-auto my-auto">
-            <div class="card-body">
-                <input type="email" placeholder="Email" class="input input-bordered" required />
-                <label class="label cursor-pointer">
-                    Accept terms of use
-                    <input type="checkbox" class="toggle" />
-                </label>
-                <label class="label cursor-pointer">
-                    Submit to newsletter
-                    <input type="checkbox" class="toggle" />
-                </label>
-                <button type="submit" class="btn btn-neutral">Save</button>
-            </div>
-        </form>
 
+
+        <!-- cookies alert -->
+        <div class="alert">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                class="stroke-info shrink-0 w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span>Sorry, we use cookies for no reason.🥺😥😔</span>
+            <div>
+                <button type="button" class="btn btn-sm">Deny</button>
+                <button type="button" class="btn btn-sm btn-primary">Accept</button>
+            </div>
+        </div>
+        <!-- end of cookies alert -->
+
+        <!-- message alert -->
+        <div class="alert shadow-lg lg:w-3/6 lg:mx-auto lg:my-28">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                class="stroke-info shrink-0 w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <div>
+                <h3 class="font-bold">New message!</h3>
+                <div class="text-xs">You have 1 unread message</div>
+            </div>
+            <button type="button" class="btn btn-sm">See</button>
+        </div>
+        <!-- end of message alert -->
 
     </div>
 
@@ -52,17 +148,27 @@
 <!-- DAISY UI -->
 <!-- https://daisyui.com/ -->
 
-<!-- <div class="card bg-base-200 w-80" mx-auto my-auto>
-    <div class="card-body">
-      <input placeholder="Email" class="input input-bordered" />
-      <label class="label cursor-pointer">
-        Accept terms of use
-        <input type="checkbox" class="toggle" />
-      </label>
-      <label class="label cursor-pointer">
-        Submit to newsletter
-        <input type="checkbox" class="toggle" />
-      </label>
-      <button class="btn btn-neutral">Save</button>
+<!-- <div class="navbar bg-base-100">
+    <div class="flex-none">
+        <button class="btn btn-square btn-ghost" title=".">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                class="inline-block w-5 h-5 stroke-current">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
     </div>
-  </div> -->
+    <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+    </div>
+    <div class="flex-none">
+        <button class="btn btn-square btn-ghost" title=".">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                class="inline-block w-5 h-5 stroke-current">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z">
+                </path>
+            </svg>
+        </button>
+    </div>
+</div> -->
