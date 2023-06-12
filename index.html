@@ -41,49 +41,30 @@
             </div>
             <!-- end of hamburger -->
 
-            <!-- hamburger 2 -->
-            <!-- <div class="navbar-start">
-                <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost btn-square">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h16M4 18h7" />
-                        </svg>
-                    </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 w-52 rounded-lg">
-                        <li><a>Homepage</a></li>
-                        <li><a>Portfolio</a></li>
-                        <li><a>About</a></li>
-                    </ul>
-                </div>
-            </div> -->
-            <!-- end of hamburger 2 -->
-
             <div class="flex-1">
                 <a class="btn btn-ghost normal-case text-xl" href="">TailwindCSS</a>
             </div>
             <div class="flex-none">
                 <ul class="menu menu-horizontal px-1 text-base min-[200px]:">
                     <!-- hide all these with display-none on smaller screens -->
-                    <li class="min-[200px]:display-none">
+                    <li class="min-[200px]:hidden sm:hidden lg:block md:block">
                         <a href="">Home</a>
                     </li>
-                    <li class="min-[200px]:display-none">
+                    <li class="min-[200px]:hidden sm:hidden lg:block md:block">
                         <a href="#services">Services</a>
                     </li>
-                    <li class="min-[200px]:display-none">
+                    <li class="min-[200px]:hidden sm:hidden lg:block md:block">
                         <a href="#portfolio">Portfolio</a>
                     </li>
-                    <li class="min-[200px]:display-none">
+                    <li class="min-[200px]:hidden sm:hidden lg:block md:block">
                         <a href="#about">About</a>
                     </li>
-                    <li class="min-[200px]:hidden lg:block md:block">
+                    <li class="min-[200px]:hidden sm:hidden lg:block md:block">
                         <a href="#contact">Contact</a>
                     </li>
                     <!-- 
                      -->
-                    <li class="lg:bg-black">
+                    <li class="min-[200px]:block sm:block lg:hidden md:hidden">
                         <!-- make this only show on smaller screens, but hidden on large/medium screens -->
                         <details>
                             <summary>
@@ -275,3 +256,22 @@
         </button>
     </div>
 </div> -->
+
+<!-- hamburger 2 -->
+<!-- <div class="navbar-start">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost btn-square">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h7" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 w-52 rounded-lg">
+                        <li><a>Homepage</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>About</a></li>
+                    </ul>
+                </div>
+            </div> -->
+<!-- end of hamburger 2 -->
