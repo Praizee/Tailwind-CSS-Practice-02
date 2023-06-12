@@ -23,3 +23,6 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 }
+
+// Get the <span> element that closes the modal
+var button = document.getElementsByClassName("close")[0];
