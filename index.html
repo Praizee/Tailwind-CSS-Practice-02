@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Tailwind CSS Website 02</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="./Fontawesome 6 css/all.min.css">
 
     <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@3.0.3/dist/full.css" rel="stylesheet" type="text/css" /> -->
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
@@ -66,31 +65,48 @@
             </div>
             <div class="flex-none">
                 <ul class="menu menu-horizontal px-1 text-base min-[200px]:">
-                    <li>
+                    <!-- hide all these with display-none on smaller screens -->
+                    <li class="min-[200px]:display-none">
                         <a href="">Home</a>
                     </li>
-                    <li>
+                    <li class="min-[200px]:display-none">
                         <a href="#services">Services</a>
                     </li>
-                    <li>
+                    <li class="min-[200px]:display-none">
                         <a href="#portfolio">Portfolio</a>
                     </li>
-                    <li>
+                    <li class="min-[200px]:display-none">
                         <a href="#about">About</a>
                     </li>
-                    <li>
+                    <li class="min-[200px]:display-none">
                         <a href="#contact">Contact</a>
                     </li>
-                    <li>
+                    <!-- 
+                     -->
+                    <li class="lg:bg-black">
+                        <!-- make this only show on smaller screens, but hidden on large/medium screens -->
                         <details>
                             <summary>
-                                DropDown
+                                Menu
                             </summary>
                             <ul class="p-2 bg-base-100">
-                                <li><a>Link 1</a></li>
-                                <li><a>Link 2</a></li>
-                                <!-- added this dropdown 🤷🏼 -->
                                 <li>
+                                    <a href="" class="px-2">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#services" class="px-2">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio" class="px-2">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#about" class="px-2">About</a>
+                                </li>
+                                <li>
+                                    <a href="#contact" class="px-2">Contact</a>
+                                </li>
+                                <!-- added this dropdown 🤷🏼 -->
+                                <!-- <li>
                                     <details>
                                         <summary>
                                             DropDown
@@ -100,7 +116,7 @@
                                             <li><a>Link 2</a></li>
                                         </ul>
                                     </details>
-                                </li>
+                                </li> -->
                                 <!-- end of dropdown -->
                             </ul>
                         </details>
@@ -194,7 +210,6 @@
             <!-- end of message alert -->
 
             <br><br>
-
 
             <!-- bottom navigation -->
             <div class="lg\:btm-nav w-1/4 ml-2">
