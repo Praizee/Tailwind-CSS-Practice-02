@@ -25,13 +25,16 @@ window.onclick = function (event) {
 }
 
 // 
-// 
+//  TO CLOSE COOKIES PART...
 // 
 
-// Get the <span> element that closes the modal
-var button = document.getElementsByClassName("close")[0];
+// Get the cookies div
+var cookies = document.getElementById("myCookies");
+
+// Get the <button> element that closes the modal
+var spanned = document.getElementsByClassName("close-me")[0];
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function () {
-    modal.style.display = "none";
+spanned.onclick = function () {
+    cookies.style.display = "none";
 }
