@@ -68,8 +68,14 @@
                         <!-- make this only show on smaller screens, but hidden on large/medium screens -->
                         <details>
                             <summary>
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    class="inline-block w-5 h-5 stroke-current">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h16M4 18h16"></path>
+                                </svg> -->
                                 Menu
                             </summary>
+
                             <ul class="p-2 bg-base-100">
                                 <li>
                                     <a href="" class="px-2">Home</a>
@@ -176,7 +182,8 @@
             <!-- end of cookies alert -->
 
             <!-- message alert -->
-            <div class="alert shadow-lg w-3/6 mx-auto lg:mt-24 md:mt-16 sm:mt-10 min-[200px]:mt-8 mb-0 border-gray-500">
+            <div id="myModal"
+                class="alert hidden shadow-lg w-3/6 mx-auto lg:mt-24 md:mt-16 sm:mt-10 min-[200px]:mt-8 mb-0 border-gray-500">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     class="stroke-info shrink-0 w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -187,6 +194,8 @@
                     <div class="text-xs">You have 1 unread message</div>
                 </div>
                 <button type="button" class="btn btn-sm">See</button>
+                <button class="close btn btn-sm text-base">&times;</button>
+
             </div>
             <!-- end of message alert -->
 
@@ -202,13 +211,13 @@
                     </svg>
                 </a>
 
-                <a class="btn p-0" title=".">
+                <button class="btn p-0" title="Message" id="myBtn">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                </a>
+                </button>
 
                 <a title="." class="btn p-0">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
