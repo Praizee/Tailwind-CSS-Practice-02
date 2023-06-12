@@ -38,3 +38,8 @@ var spanned = document.getElementsByClassName("close-me")[0];
 spanned.onclick = function () {
     cookies.style.display = "none";
 }
+
+// date for copyright
+const date = document.querySelector("#date");
+// set year
+date.innerHTML = new Date().getFullYear();
