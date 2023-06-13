@@ -1,0 +1,16 @@
+https://tailwindui.com/components/application-ui/navigation/navbars
+
+https://tailwindui.com/components/application-ui/forms/input-groups
+
+https://tailwindui.com/components/application-ui/forms/form-layouts
+
+https://tws.zarifprogrammer.com/snippets
+
+https://tailwindui.com/components/application-ui/overlays/modals
+
+https://tailwindui.com/
+
+https://tailwindui.com/components/ecommerce/components/store-navigation
+
+https://flowbite.com/docs/getting-started/quickstart/
+
