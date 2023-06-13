@@ -11,7 +11,8 @@
           "aspect-ratio"
         ]
       }
-    ]
+    ],
+    "disown-opener": "off"
   },
   "browserslist": [
     "defaults",
