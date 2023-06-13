@@ -14,3 +14,13 @@ https://tailwindui.com/components/ecommerce/components/store-navigation
 
 https://flowbite.com/docs/getting-started/quickstart/
 
+https://tailwindcss.com/docs/display
+
+https://tailwindcss.com/docs/dark-mode
+
+https://tailwindcss.com/docs/responsive-design
+
+https://daisyui.com/theme-generator/
+
+https://daisyui.com/components/
+
