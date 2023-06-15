@@ -27,7 +27,8 @@
 <body class="bg-zinc-600 transition w-full">
     <!-- style="background-color: hsl(var(--b1) / var(--tw-bg-opacity, 1));" -->
 
-    <div class="transition">
+    <!-- container -->
+    <div class="transition container">
         <!-- removed 'container' class... -->
 
         <!-- try to add sm and md for some of the navbar links..to be hidden on smaller screens (include it in the dropdown
@@ -175,18 +176,19 @@
             sequi eligendi harum, id vitae qui sint eveniet rerum quidem cupiditate tempore quasi magnam veniam
         </p>
 
-        <h1 class="text-slate-100 font-medium text-3xl pt-8 pb-4 pl-8" id="contact">Contact Us</h1>
 
-
-        <div class="px-5 grid gap-8 grid-cols-1 md:grid-cols-2 py-24 mx-auto bg-gray-100 text-gray-900 rounded-lg">
+        <!-- contact section -->
+        <!-- <h1 class="text-slate-100 font-medium text-3xl pt-8 pb-4 pl-8" id="contact">Contact Us</h1> -->
+        <div id="contact" class="px-5 grid gap-8 grid-cols-1 md:grid-cols-2 py-24 mx-auto bg-gray-100 text-gray-900">
+            <!-- class="uppercase btn btn-primary text-sm font-bold tracking-wide bg-primary p-3 rounded-lg w-full focus:outline-none focus:shadow-outline text-primary hover:text-slate-100" -->
             <div class="flex flex-col justify-center">
                 <div>
                     <h2 class="text-4xl lg:text-5xl font-bold leading-tight">
-                        Lets talk about everything!
+                        Let's talk about everything!
                     </h2>
                     <div class="text-gray-700 mt-8">
-                        Hate forms? Send us an&nbsp;
-                        <a class="underline" href="mailto:someone@gmail.com">
+                        Hate forms? Send us an
+                        <a class="underline" href="mailto:praiseadeniji2017@gmail.com">
                             email
                         </a>
                         instead.
@@ -238,15 +240,9 @@
                 </div>
             </form>
         </div>
+        <!-- end of contact section -->
 
-
-        <p class="text-slate-100 font-medium text-lg p-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, exercitationem tenetur magni asperiores
-            aliquam, praesentium provident optio, deleniti placeat facere minima rem! Sint, minima vel. Obcaecati
-            doloremque deleniti nam delectus nemo beatae, non suscipit at reiciendis ipsam explicabo consectetur
-            possimus quis tempora similique voluptatem modi labore officia. Dolores quia voluptate nulla itaque ipsam
-        </p>
-
+        <!-- footer -->
         <footer class="mb-0 border-t bg-base-200 text-base-content">
             <!-- bg-gray-800 -->
             <!-- style="background-color: hsl(var(--b1) / var(--tw-bg-opacity, 1));" -->
@@ -371,8 +367,10 @@
 
 
         </footer>
+        <!-- end of footer -->
 
     </div>
+    <!-- end of container -->
 
     <script src="./tailwind.config.js"></script>
     <script src="./index.js"></script>
