@@ -9,11 +9,6 @@
     width: 15%;
 }
 
-/* body {
-    background-image: url(./images/Doodle.jpg);
-    background-size: cover;
-} */
-
 /* fixed navbar */
 .navbar-fixed {
     position: fixed;
@@ -24,3 +19,8 @@
 }
 
 /* @media screen and (max-width: 270px) {} */
+
+/* body {
+    background-image: url(./images/Doodle.jpg);
+    background-size: cover;
+} */
