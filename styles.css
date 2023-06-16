@@ -3,6 +3,10 @@
     scroll-behavior: smooth;
 }
 
+.underline {
+    border: 1px solid;
+    width: 15%;
+}
 
 /* body {
     background-image: url(./images/Doodle.jpg);
