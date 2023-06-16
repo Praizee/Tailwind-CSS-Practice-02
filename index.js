@@ -24,9 +24,9 @@ window.onclick = function (event) {
     }
 }
 
+
 // 
 //  TO CLOSE COOKIES PART...
-// 
 
 // Get the cookies div
 var cookies = document.getElementById("myCookies");
