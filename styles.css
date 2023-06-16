@@ -4,8 +4,8 @@
     transition-duration: 300ms;
 }
 
-.underline {
-    border: 1px solid;
+.underlined {
+    border: 0.1px solid;
     width: 15%;
 }
 
@@ -22,3 +22,5 @@
     width: 100%;
     z-index: 2;
 }
+
+/* @media screen and (max-width: 270px) {} */
