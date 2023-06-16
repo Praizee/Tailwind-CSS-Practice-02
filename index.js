@@ -55,3 +55,13 @@ window.addEventListener("scroll", function () {
         navbar.classList.remove("navbar-fixed");
     }
 });
+
+// to add a fixed navbar, copy the above code for JS, then add an id of 'nav' to the navbar in the html, and then the css styles below:
+/* fixed navbar */
+// .navbar-fixed {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     z-index: 2;
+// }
