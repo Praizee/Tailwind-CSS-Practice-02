@@ -9,6 +9,10 @@
     width: 15%;
 }
 
+.emoji {
+    /* font-size: 15rem; */
+}
+
 /* fixed navbar */
 .navbar-fixed {
     position: fixed;
