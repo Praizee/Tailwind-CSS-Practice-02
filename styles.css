@@ -1,6 +1,7 @@
 * {
     font-family: 'Exo 2', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
+    transition-duration: 300ms;
 }
 
 .underline {
