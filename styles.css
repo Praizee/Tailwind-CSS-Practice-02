@@ -9,6 +9,10 @@
     width: 15%;
 }
 
+section {
+    border-bottom: 2px solid;
+}
+
 /* .emoji {
     font-size: 15rem;
 } */
