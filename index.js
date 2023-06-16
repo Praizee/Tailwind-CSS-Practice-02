@@ -49,7 +49,7 @@ date.innerHTML = new Date().getFullYear();
 const navbar = document.querySelector("#nav");
 // add fixed class to navbar
 window.addEventListener("scroll", function () {
-    if (window.pageYOffset > 80) {
+    if (window.pageYOffset > 90) {
         navbar.classList.add("navbar-fixed");
     } else {
         navbar.classList.remove("navbar-fixed");
