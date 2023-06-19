@@ -23,7 +23,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 100;
 }
 
 /* @media screen and (max-width: 270px) {} */
