@@ -46,16 +46,16 @@ date.innerHTML = new Date().getFullYear();
 
 
 // for fixed navbar
-// const navbar = document.querySelector("#nav");
-// // add fixed class to navbar
-// window.addEventListener("scroll", function () {
-//     if (window.pageYOffset > 90) {
-//         // formerly 80
-//         navbar.classList.add("navbar-fixed");
-//     } else {
-//         navbar.classList.remove("navbar-fixed");
-//     }
-// });
+const navbar = document.querySelector("#nav");
+// add fixed class to navbar
+window.addEventListener("scroll", function () {
+    if (window.pageYOffset > 100) {
+        // formerly 80
+        navbar.classList.add("navbar-fixed");
+    } else {
+        navbar.classList.remove("navbar-fixed");
+    }
+});
 
 // to add a fixed navbar, copy the above code for JS, then add an id of 'nav' to the navbar in the html, and then the css styles below:
 // /* fixed navbar */
