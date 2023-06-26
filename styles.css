@@ -4,7 +4,9 @@
     transition-duration: 300ms;
 }
 
-
+html {
+    scroll-snap-type: mandatory;
+}
 
 .underlined {
     border: 0.1px solid;
