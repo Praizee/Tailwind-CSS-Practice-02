@@ -5,7 +5,7 @@
 }
 
 html {
-    scroll-snap-type: y proximity;
+    scroll-snap-type: y mandatory;
     /* scroll-padding-top: 1.2rem; */
     /* mandatory for always */
     /* proximity for close to next section */
