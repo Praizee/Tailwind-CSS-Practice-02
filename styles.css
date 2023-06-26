@@ -5,7 +5,9 @@
 }
 
 html {
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
+    /* mandatory for always */
+    /* proximity for close to next section */
 }
 
 .underlined {
