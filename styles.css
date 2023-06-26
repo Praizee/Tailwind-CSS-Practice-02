@@ -5,7 +5,7 @@
 }
 
 html {
-    scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory;
 }
 
 .underlined {
